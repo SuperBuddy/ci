@@ -21,7 +21,7 @@ This file should be changed according to the specific needs (e.g. docker-compose
 
 Then the reverse proxy (Nginx) config is changed to include the new appserver
 that has just been added
-(it is ran on the specify network and the next available port).
+(it is ran on the specific network and the next available port).
 For more info about configuring this and weight distribution across appservers,
 click [here](http://nginx.org/en/docs/http/load_balancing.html).
 When the server runs and the config file is changed by `.addNewUpstreamNginx.sh`,
