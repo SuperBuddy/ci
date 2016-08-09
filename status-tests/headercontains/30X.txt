@@ -1,0 +1,8 @@
+HTTP/1.1 30
+
+# should redirect to https
+api.superbuddy.nl
+superbuddy.nl
+
+# should redirect to apex domain
+https://www.superbuddy.nl
